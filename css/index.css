@@ -1,0 +1,77 @@
+body{
+    font-family:'Segoe UI';
+    background:  rgb(50, 19, 121);
+}
+.logo-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+input[type="search"]{
+    border: none;
+}
+.plus{
+    font-size: 10px;
+    padding: 10px ;
+    background: linear-gradient(101.67deg, rgb(75, 63, 209) 7.24%, rgb(226, 69, 213) 37%, rgb(9, 243, 224) 92%);
+}
+.albums a{
+    color: rgb(224, 199, 216);
+}
+.card{
+    width: 75%;
+    height: 90%;
+    align-items: center;
+    border-color: rgb(179, 142, 240);
+    opacity: 0.86;
+}
+h1{
+    text-align: center;
+    color: #f6ffc3;
+}
+.card-text{
+   color: black; 
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%;
+ 
+}
+.video_m{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+.intro{
+    max-height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.inro:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: rgba(189, 153, 153, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.intro_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}

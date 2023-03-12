@@ -1,0 +1,19 @@
+header{
+    background-color: rgb(180, 150, 197);
+    border-radius: 15px;
+    opacity: 0.7;
+}
+
+header .nav-link{
+    color: rgb(0, 1, 2);
+    opacity: 1.0;
+}
+header .nav-link:hover{
+    color: rgb(218, 7, 77);
+}
+header .nav-link:active{
+    color: rgb(204, 95, 33);
+}
+header .nav-link:focus{
+    color: rgb(218, 7, 77);
+}
